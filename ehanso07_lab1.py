@@ -4,7 +4,6 @@ if (len(sys.argv) == 2):
     file_name = sys.argv[1]
 else:
     exit()
-    #print("error!! enter template -> 'python3 main.py [filename]'")
 
 A = []
 with open(file_name, 'r') as file:
